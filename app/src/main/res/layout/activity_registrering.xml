@@ -10,45 +10,82 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="196dp"
+        android:padding="50dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/firstName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:text="Fornavn" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/lastName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:text="Etternavn" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/campus"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:text="Campus" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="?android:attr/listDivider" />
 
     <EditText
         android:id="@+id/year"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:ems="10"
         android:inputType="number" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/education"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="36dp"
+        android:text="Utdannelse" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/link"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="36dp"
+        android:text="Link til sosiale medier" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider" />
 
     <Button
         android:id="@+id/userPic"
@@ -58,12 +95,31 @@
         android:background="@color/colorButton"
         android:textColor="@color/colorText"/>
 
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
     <Button
         android:id="@+id/reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registrer"
         android:background="@color/colorButton"
-        android:textColor="@color/colorText"/>
+        android:text="Registrer"
+        android:textColor="@color/colorText" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorProcessbar" />
 
 </LinearLayout>

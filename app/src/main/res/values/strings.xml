@@ -12,11 +12,14 @@
     <string name="registration">Registrer</string>
     <string name="firstName">Fornavn</string>
     <string name="lastName">Etternavn</string>
+    <string name="studentnr">Studentnr</string>
     <string name="campus">Campus</string>
     <string name="year">Årskull</string>
+    <string name="subject">Fag</string>
     <string name="education">Utdanning</string>
-    <string name="link">Lik til sosiale medier</string>
+    <string name="link">Link til sosiale medier</string>
     <string name="userPic">Last opp bilde</string>
     <string name="reg">Registrer</string>
+    <string name="school">Skole</string>
     <string name="name">Navn</string>
 </resources>

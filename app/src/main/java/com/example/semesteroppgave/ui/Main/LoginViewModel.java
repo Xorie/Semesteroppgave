@@ -1,4 +1,4 @@
-package com.example.semesteroppgave.ui.login;
+package com.example.semesteroppgave.ui.Main;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

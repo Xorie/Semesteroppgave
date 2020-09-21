@@ -1,4 +1,4 @@
-package com.example.semesteroppgave.ui.login;
+package com.example.semesteroppgave.ui.Main;
 
 import android.app.Activity;
 
@@ -23,10 +23,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.semesteroppgave.R;
-import com.example.semesteroppgave.ui.login.LoginViewModel;
-import com.example.semesteroppgave.ui.login.LoginViewModelFactory;
 
-public class LoginActivity extends AppCompatActivity {
+class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
 

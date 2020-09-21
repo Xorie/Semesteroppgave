@@ -1,4 +1,4 @@
-package com.example.semesteroppgave.ui.login;
+package com.example.semesteroppgave.ui.Main;
 
 /**
  * Class exposing authenticated user details to the UI.

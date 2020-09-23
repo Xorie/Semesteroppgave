@@ -19,4 +19,8 @@
     <string name="userPic">Last opp bilde</string>
     <string name="reg">Registrer</string>
     <string name="name">Navn</string>
+    <string name="studentnr">Studentnr</string>
+    <string name="bio">Bio</string>
+    <string name="subject">Fag</string>
+    <string name="links">Lenker</string>
 </resources>

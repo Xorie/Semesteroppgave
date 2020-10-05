@@ -20,24 +20,28 @@
         android:layout_height="wrap_content"
         android:text="@string/konto"
         tools:layout_editor_absoluteX="302dp"
-        tools:layout_editor_absoluteY="21dp" />
+        tools:layout_editor_absoluteY="21dp"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorText"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/sokefelt"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="203dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="21dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="365dp"
         android:layout_height="327dp"
+        android:layout_marginTop="72dp"
         android:text="@string/om_appen"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:layout_editor_absoluteX="23dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
